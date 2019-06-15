@@ -2,37 +2,37 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Test testValidLogin is PASS]]>
+      <![CDATA[Test Addemptest is PASS]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80272" started-at="2019-06-15T10:10:47Z" finished-at="2019-06-15T10:12:08Z">
+  <suite name="Default suite" duration-ms="74239" started-at="2019-06-15T13:27:36Z" finished-at="2019-06-15T13:28:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="80272" started-at="2019-06-15T10:10:47Z" finished-at="2019-06-15T10:12:08Z">
-      <class name="Script.LoginTest">
-        <test-method status="PASS" signature="OpenApp()[pri:0, instance:Script.LoginTest@18be83e4]" name="OpenApp" is-config="true" duration-ms="47403" started-at="2019-06-15T15:40:47Z" finished-at="2019-06-15T15:41:35Z">
+    <test name="Default test" duration-ms="74239" started-at="2019-06-15T13:27:36Z" finished-at="2019-06-15T13:28:51Z">
+      <class name="Script.AddEmpTest">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:Script.AddEmpTest@18be83e4]" name="OpenApp" is-config="true" duration-ms="29115" started-at="2019-06-15T18:57:36Z" finished-at="2019-06-15T18:58:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:Script.LoginTest@18be83e4]" name="testValidLogin" duration-ms="32819" started-at="2019-06-15T15:41:35Z" finished-at="2019-06-15T15:42:08Z">
+        <test-method status="PASS" signature="Addemptest()[pri:0, instance:Script.AddEmpTest@18be83e4]" name="Addemptest" duration-ms="45056" started-at="2019-06-15T18:58:05Z" finished-at="2019-06-15T18:58:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:Script.LoginTest@18be83e4]" name="CloseApp" is-config="true" duration-ms="2" started-at="2019-06-15T15:42:08Z" finished-at="2019-06-15T15:42:08Z">
+        </test-method> <!-- Addemptest -->
+        <test-method status="PASS" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:Script.AddEmpTest@18be83e4]" name="CloseApp" is-config="true" duration-ms="5" started-at="2019-06-15T18:58:51Z" finished-at="2019-06-15T18:58:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:1, instance:Script.LoginTest@18be83e4] output={null}]]]>
+                <![CDATA[[TestResult name=Addemptest status=SUCCESS method=AddEmpTest.Addemptest()[pri:0, instance:Script.AddEmpTest@18be83e4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Test testValidLogin is PASS]]>
+              <![CDATA[Test Addemptest is PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-      </class> <!-- Script.LoginTest -->
+      </class> <!-- Script.AddEmpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
